@@ -1,0 +1,50 @@
+.bg1{
+
+	margin-top: -25px;
+	padding-top: 70px;
+	background-color: #0099CC;
+	width: 100%;
+	height: 600px;
+}
+
+.bg2{
+
+	background-color: 'yellow';
+	height: 600px;
+	width: 100%;
+}
+
+h1{
+
+	font-family: 'Roboto Condensed';
+	
+	font-size: 100px;
+	font-weight: 700;
+	color: white;
+
+}
+
+.img-responsive{
+
+	margin: 0 auto;
+}
+.centered{
+	text-align: center;
+
+}
+.main-resources{
+
+	margin-top: 70px;
+}
+.white{
+
+	color: white;
+}
+
+h3{
+
+	font-family: 'Open Sans';
+}
+
+.container-img { width: 418px; height: 240px; overflow: hidden; }
+.container-img img { width: 100%; }

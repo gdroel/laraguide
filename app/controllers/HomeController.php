@@ -22,7 +22,17 @@ class HomeController extends BaseController {
 
 	public function doCreate(){
 
+		$article = new Article();
+
+		$article->name = Input::get('name');
+		$article->author = Input::get('author');
+		$article->url = Input::get('url');
+		$article->difficulty = Input::get('difficulty');
+		$article->email = Input::get('email');
+		$article->category = 'category';
+		$article->type = '';
 		
+		$article->save();
 	}
 
 }

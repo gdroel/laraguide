@@ -8,6 +8,9 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.0/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Open+Sans' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,9 +20,8 @@
     <![endif]-->
   </head>
   <body>
-  	<div class="container">
-   		@yield('content')
-	</div>
+  	
+   	@yield('content')
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
